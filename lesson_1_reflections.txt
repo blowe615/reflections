@@ -1,0 +1,30 @@
+Q: How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+A: FC (Windows) or diff (Linux/Mac) helped me compare only sections of code that were different between the two files.  Not only did this cut down the number of lines to scan, but it also presented them next to each other in the same screen which helped me compare them directly, rather than jumping back and forth between the two files.
+
+Q: How could having easy access to the entire history of a file make you a more 
+efficient programmer in the long term?
+
+A: It will be easier to back up and try something different if something isn't working.
+
+Q: What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+A: The pros are knowing exactly what the differences are in each version, being able to document those differences, and developing versions in parallel instead of in series. Cons are having too many or too few versions.
+
+Q: Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+A: Git allows saving multiple files in case they are connected. Google Docs likely treats each file separately because its files (text editors and spreadsheets) do not usually interact with each other like code files.
+
+Q: How can you use the commands git log and git diff to view the history of files?
+
+A: git log provides the time and comment associated with each commit.  Adding --stat will show the number of insertions and deletions for each file.  git diff allows you to compare versions directly, showing which lines are added or removed between the two versions.
+
+Q: How might using version control make you more confident to make changes that could break something?
+
+A: By using version control, I know that I can always revert to a previous version that works in case I do something that breaks the code and it is too difficult to fix.
+
+Q: Now that you have your workspace set up, what do you want to try using Git for?
+
+A: I want to use Git to create repositories for the various projects I work on as I learn Data Science, whether that be Kaggle competitions, Udacity course projects, or my own personal projects.  This will help me create a portfolio of my work for future employers.
