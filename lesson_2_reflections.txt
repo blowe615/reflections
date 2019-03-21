@@ -5,3 +5,23 @@ A: When you initialize a repository, it creates an empty .git folder.  You do th
 Q: How is the staging area different from the working directory and the repository? What value do you think it offers?
 
 A: The staging area is an intermediary that takes files from the working directory in preparation for adding them to the repository in a commit.  It allows the user to identify specific files to commit, rather that committing all of them at once.
+
+Q: How can you use the staging area to make sure you have one commit per logical change?
+
+A: By using 'git diff --staged' you can compare the changes between the version in your staging area and your most recent commit to confirm what changes are being made with your commit.
+
+Q: What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+A: Branches would be helpful when experimenting with additional features that may or may not be kept, or with developing multiple methods for accomplishing the same tasks.  Branches would help by allowing you to keep working on both branches and then deciding later which one to use, rather than having to backtrack and recreate all of the work after the branch.
+
+Q: How do the diagrams help you visualize the branch structure?
+
+A: The diagrams help me visualize since I can follow the commits in each branch and see which commits are accessible from each branch (i.e. their parents).  This reinforces the idea of working on unrelated versions of the same project by creating branches.
+
+Q: What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+A: Merging two branches together keeps all lines from the shared parent that remain in both branches and adds any lines that were added in either branch, but does not keep lines that were deleted in one or both of the branches.  It also keeps all of the commits from both branches.  It is represented in the diagram in a way that shows that all of the commits are preserved.
+
+Q: What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+A: Manually merging would be very tedious, so automatic merging is likely better for most merges.  However, when there are conflicts, it is much better to resolve them manually rather than automatically so that you know what is included in the final version.
