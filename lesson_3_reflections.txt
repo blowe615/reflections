@@ -5,3 +5,7 @@ A: Use a remote repository when collaborating with other people or on multiple m
 Q: Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 
 A: Manually pulling changes means that you always know what changes you are adding from your remote repository.  This is helpful when other people are making commits on your remote.
+
+Q: Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+A: Branches exist within a repository and are used to add new features or experiment without affecting the 'master' or working branch.  Clones are complete copies of repositories (including the commit history of all branches) on a local machine and are used when you want to edit file(s) locally.  Forks are clones that are done on GitHub and are used when you want to create a GitHub repo from an existing one and give credit to the original.
