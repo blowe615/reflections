@@ -13,3 +13,7 @@ A: Branches exist within a repository and are used to add new features or experi
 Q: What is the benefit of having a copy of the last known state of the remote stored locally?
 
 A: It allows you to work offline with the most up-to-date version.
+
+Q: How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+A: I would use Dropbox or just email files back and forth.  It would be easier since those systems are pretty intuitive and would be easy to teach someone if they had never used them before.  However, it would be harder since there would be no way to merge files or compare what changes had been made between versions.
