@@ -17,3 +17,7 @@ A: It allows you to work offline with the most up-to-date version.
 Q: How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 
 A: I would use Dropbox or just email files back and forth.  It would be easier since those systems are pretty intuitive and would be easy to teach someone if they had never used them before.  However, it would be harder since there would be no way to merge files or compare what changes had been made between versions.
+
+Q: When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+A: Making changes in a separate branch allows for experimentation with new features or creating a new version that can be developed independently of the working master.  That means that changes in a branch don't have to work or be perfect.  Making changes directly in master can be beneficial if you know they are going to work and avoids having to merge branches and deal with merge conflicts.
